@@ -6,7 +6,7 @@
 
 | Project | 项目 | 核心学习内容 | 状态 |
 | --- | --- | --- | --- |
-| 1 | Image Classifier | CNN、Training Loop、Data Augmentation、Transfer Learning、Fine-tuning | 基本完成 |
+| 1 | [Image Classifier](project1-image-classifier/) | CNN、Training Loop、Data Augmentation、Transfer Learning；Fine-tuning 待实现 | 基本完成 |
 | 2 | Neural Network from Scratch | MLP、Backpropagation、Gradient Descent、Autograd | **下一项目** |
 | 3 | [NLP Transformer Model](project3-nlp/) | Tokenization、Embedding、Transformer、Fine-tuning | 已有初版 |
 | 4 | Recommendation System | Collaborative Filtering、Embeddings | 未开始 |
@@ -14,6 +14,16 @@
 | 6 | CNN / ResNet / U-Net | 深层 CNN、Residual Connections、Image Segmentation | 未开始 |
 | 7 | Mini Diffusion Model | DDPM、Noise Scheduling、Denoising | 未开始 |
 | 8 | Stable Diffusion Project | U-Net、Attention、Latent Diffusion、生成式 AI | 未开始 |
+
+## Project 1 · Image Classifier
+
+从 CIFAR-10 筛选猫和狗，手写 CNN 和训练循环，再比较数据增强、权重衰减、改进 CNN、学习率调度和预训练 ResNet18。
+
+- 基础 CNN 在最低验证损失对应轮次的准确率为 72.65%。
+- 冻结 ResNet18 主干、只训练分类层，历史最佳验证损失对应的准确率为 87.70%。
+- 已实现固定特征提取器的迁移学习；主干 Fine-tuning 和独立测试集评估尚未完成。
+
+查看 [项目说明与运行方法](project1-image-classifier/README.md) 或 [带中文解释的 notebook](project1-image-classifier/CIFAR10.ipynb)。以上数字来自原始实验记录，整理版尚未完整重训。
 
 ## Project 3 · NLP Transformer Model
 

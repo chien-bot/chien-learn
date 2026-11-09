@@ -16,3 +16,6 @@ venv/
 *.pt
 *.safetensors
 .cache/
+
+# Downloaded datasets
+data/

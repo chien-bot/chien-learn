@@ -1,0 +1,167 @@
+Historical output from the original CIFAR10.ipynb.
+Not a rerun of the reviewed version. Weight-decay experiment output is incomplete.
+
+=== Baseline CNN (original cell 21) ===
+Epoch 1 | Train Loss: 0.6730 | Val Loss: 0.6406 | Accuracy: 65.65%
+Best model saved!
+Epoch 2 | Train Loss: 0.6169 | Val Loss: 0.6070 | Accuracy: 67.30%
+Best model saved!
+Epoch 3 | Train Loss: 0.5867 | Val Loss: 0.5835 | Accuracy: 69.65%
+Best model saved!
+Epoch 4 | Train Loss: 0.5591 | Val Loss: 0.5698 | Accuracy: 70.45%
+Best model saved!
+Epoch 5 | Train Loss: 0.5343 | Val Loss: 0.6141 | Accuracy: 67.15%
+Epoch 6 | Train Loss: 0.5165 | Val Loss: 0.5605 | Accuracy: 70.95%
+Best model saved!
+Epoch 7 | Train Loss: 0.5002 | Val Loss: 0.5726 | Accuracy: 71.20%
+Epoch 8 | Train Loss: 0.4722 | Val Loss: 0.5602 | Accuracy: 71.65%
+Best model saved!
+Epoch 9 | Train Loss: 0.4504 | Val Loss: 0.5510 | Accuracy: 72.45%
+Best model saved!
+Epoch 10 | Train Loss: 0.4271 | Val Loss: 0.5468 | Accuracy: 72.65%
+Best model saved!
+Epoch 11 | Train Loss: 0.3997 | Val Loss: 0.6027 | Accuracy: 72.35%
+Epoch 12 | Train Loss: 0.3784 | Val Loss: 0.5708 | Accuracy: 72.10%
+Epoch 13 | Train Loss: 0.3578 | Val Loss: 0.5672 | Accuracy: 72.90%
+Early stopping triggered!
+Best Validation Loss: 0.5467636523246765
+
+=== Data augmentation (original cell 26) ===
+Epoch 1 | Train Loss: 0.6832 | Val Loss: 0.6725 | Accuracy: 61.15%
+Best model saved!
+Epoch 2 | Train Loss: 0.6592 | Val Loss: 0.6369 | Accuracy: 65.45%
+Best model saved!
+Epoch 3 | Train Loss: 0.6279 | Val Loss: 0.6091 | Accuracy: 66.65%
+Best model saved!
+Epoch 4 | Train Loss: 0.6091 | Val Loss: 0.5849 | Accuracy: 69.35%
+Best model saved!
+Epoch 5 | Train Loss: 0.5938 | Val Loss: 0.5788 | Accuracy: 69.00%
+Best model saved!
+Epoch 6 | Train Loss: 0.5782 | Val Loss: 0.5574 | Accuracy: 70.25%
+Best model saved!
+Epoch 7 | Train Loss: 0.5673 | Val Loss: 0.5400 | Accuracy: 72.30%
+Best model saved!
+Epoch 8 | Train Loss: 0.5612 | Val Loss: 0.5429 | Accuracy: 72.20%
+Epoch 9 | Train Loss: 0.5476 | Val Loss: 0.5351 | Accuracy: 72.05%
+Best model saved!
+Epoch 10 | Train Loss: 0.5411 | Val Loss: 0.5238 | Accuracy: 74.45%
+Best model saved!
+Epoch 11 | Train Loss: 0.5271 | Val Loss: 0.5410 | Accuracy: 72.75%
+Epoch 12 | Train Loss: 0.5191 | Val Loss: 0.5137 | Accuracy: 73.45%
+Best model saved!
+Epoch 13 | Train Loss: 0.5256 | Val Loss: 0.5165 | Accuracy: 74.05%
+Epoch 14 | Train Loss: 0.5073 | Val Loss: 0.4873 | Accuracy: 75.40%
+Best model saved!
+Epoch 15 | Train Loss: 0.5103 | Val Loss: 0.4968 | Accuracy: 74.45%
+Best Epoch: 14
+Best Val Loss: 0.48725248765945434
+Accuracy at Best Val Loss: 0.754
+
+=== Data augmentation + weight decay (original cell 29) ===
+Epoch 1 | Train Loss: 0.6831 | Val Loss: 0.6722 | Accuracy: 61.75%
+Best model saved!
+Epoch 2 | Train Loss: 0.6594 | Val Loss: 0.6392 | Accuracy: 64.60%
+Best model saved!
+Epoch 3 | Train Loss: 0.6295 | Val Loss: 0.6129 | Accuracy: 65.45%
+Best model saved!
+Epoch 4 | Train Loss: 0.6135 | Val Loss: 0.5841 | Accuracy: 68.90%
+Best model saved!
+Epoch 5 | Train Loss: 0.5960 | Val Loss: 0.5797 | Accuracy: 69.35%
+Best model saved!
+Epoch 6 | Train Loss: 0.5810 | Val Loss: 0.5577 | Accuracy: 71.20%
+Best model saved!
+Epoch 7 | Train Loss: 0.5683 | Val Loss: 0.5509 | Accuracy: 70.35%
+Best model saved!
+Epoch 8 | Train Loss: 0.5573 | Val Loss: 0.5285 | Accuracy: 72.60%
+Best model saved!
+Epoch 9 | Train Loss: 0.5425 | Val Loss: 0.5226 | Accuracy: 72.45%
+Best model saved!
+Epoch 10 | Train Loss: 0.5333 | Val Loss: 0.5097 | Accuracy: 74.15%
+Best model saved!
+Epoch 11 | Train Loss: 0.5244 | Val Loss: 0.5493 | Accuracy: 71.85%
+Epoch 12 | Train Loss: 0.5149 | Val Loss: 0.5092 | Accuracy: 73.85%
+Best model saved!
+Epoch 13 | Train Loss: 0.5167 | Val Loss: 0.5104 | Accuracy: 74.60%
+Epoch 14 | Train Loss: 0.5036 | Val Loss: 0.4838 | Accuracy: 75.30%
+Best model saved!
+
+=== ImprovedCNN + data augmentation (original cell 32) ===
+Epoch 1 | Train Loss: 0.6115 | Val Loss: 0.6283 | Accuracy: 65.50%
+Best model saved!
+Epoch 2 | Train Loss: 0.5779 | Val Loss: 0.5844 | Accuracy: 68.70%
+Best model saved!
+Epoch 3 | Train Loss: 0.5540 | Val Loss: 0.5502 | Accuracy: 73.35%
+Best model saved!
+Epoch 4 | Train Loss: 0.5417 | Val Loss: 0.6073 | Accuracy: 68.35%
+Epoch 5 | Train Loss: 0.5151 | Val Loss: 0.5062 | Accuracy: 75.05%
+Best model saved!
+Epoch 6 | Train Loss: 0.5100 | Val Loss: 0.6000 | Accuracy: 67.35%
+Epoch 7 | Train Loss: 0.4864 | Val Loss: 0.5327 | Accuracy: 72.95%
+Epoch 8 | Train Loss: 0.4852 | Val Loss: 0.4714 | Accuracy: 78.25%
+Best model saved!
+Epoch 9 | Train Loss: 0.4699 | Val Loss: 0.4713 | Accuracy: 77.20%
+Best model saved!
+Epoch 10 | Train Loss: 0.4582 | Val Loss: 0.4643 | Accuracy: 78.20%
+Best model saved!
+Epoch 11 | Train Loss: 0.4616 | Val Loss: 0.4332 | Accuracy: 80.40%
+Best model saved!
+Epoch 12 | Train Loss: 0.4439 | Val Loss: 0.7539 | Accuracy: 64.00%
+Epoch 13 | Train Loss: 0.4369 | Val Loss: 0.4891 | Accuracy: 76.20%
+Epoch 14 | Train Loss: 0.4241 | Val Loss: 0.4443 | Accuracy: 78.55%
+Epoch 15 | Train Loss: 0.4244 | Val Loss: 0.4139 | Accuracy: 80.90%
+Best model saved!
+Best Epoch: 15
+Best Val Loss: 0.41388492345809935
+Accuracy at Best Val Loss: 0.809
+
+=== ImprovedCNN + StepLR (original cell 34) ===
+Epoch 1 | LR: 0.001000 | Train Loss: 0.6594 | Val Loss: 0.6702 | Accuracy: 61.15%
+Best model saved!
+Epoch 2 | LR: 0.001000 | Train Loss: 0.6110 | Val Loss: 0.6087 | Accuracy: 66.65%
+Best model saved!
+Epoch 3 | LR: 0.001000 | Train Loss: 0.5761 | Val Loss: 0.7825 | Accuracy: 58.50%
+Epoch 4 | LR: 0.001000 | Train Loss: 0.5529 | Val Loss: 0.5442 | Accuracy: 72.30%
+Best model saved!
+Epoch 5 | LR: 0.001000 | Train Loss: 0.5387 | Val Loss: 0.5642 | Accuracy: 71.15%
+Epoch 6 | LR: 0.000500 | Train Loss: 0.5010 | Val Loss: 0.4927 | Accuracy: 76.10%
+Best model saved!
+Epoch 7 | LR: 0.000500 | Train Loss: 0.4913 | Val Loss: 0.5368 | Accuracy: 71.75%
+Epoch 8 | LR: 0.000500 | Train Loss: 0.4787 | Val Loss: 0.5304 | Accuracy: 74.25%
+Epoch 9 | LR: 0.000500 | Train Loss: 0.4815 | Val Loss: 0.4618 | Accuracy: 78.45%
+Best model saved!
+Epoch 10 | LR: 0.000500 | Train Loss: 0.4622 | Val Loss: 0.4701 | Accuracy: 78.10%
+Epoch 11 | LR: 0.000250 | Train Loss: 0.4468 | Val Loss: 0.4397 | Accuracy: 79.15%
+Best model saved!
+Epoch 12 | LR: 0.000250 | Train Loss: 0.4362 | Val Loss: 0.4410 | Accuracy: 79.20%
+Epoch 13 | LR: 0.000250 | Train Loss: 0.4300 | Val Loss: 0.4145 | Accuracy: 80.30%
+Best model saved!
+Epoch 14 | LR: 0.000250 | Train Loss: 0.4285 | Val Loss: 0.4243 | Accuracy: 80.70%
+Epoch 15 | LR: 0.000250 | Train Loss: 0.4282 | Val Loss: 0.4489 | Accuracy: 78.50%
+Best Epoch: 13
+Best Val Loss: 0.4144796104431152
+Accuracy at Best Val Loss: 0.803
+
+=== Frozen ResNet18 (original cell 36) ===
+Device: cuda
+GPU: Tesla T4
+Model device: cuda:0
+Trainable parameters: 1026
+
+Epoch 1/5 | Train Loss: 0.4292 | Val Loss: 0.3577 | Val Accuracy: 83.90%
+Best model saved!
+
+Epoch 2/5 | Train Loss: 0.3317 | Val Loss: 0.3106 | Val Accuracy: 86.20%
+Best model saved!
+
+Epoch 3/5 | Train Loss: 0.3048 | Val Loss: 0.2977 | Val Accuracy: 86.65%
+Best model saved!
+
+Epoch 4/5 | Train Loss: 0.3003 | Val Loss: 0.2851 | Val Accuracy: 87.70%
+Best model saved!
+
+Epoch 5/5 | Train Loss: 0.2942 | Val Loss: 0.3032 | Val Accuracy: 85.70%
+
+Best Epoch: 4
+Best Val Loss: 0.2851
+Accuracy at Best Val Loss: 87.70%
+Model Device: cuda:0
