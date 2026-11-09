@@ -1,14 +1,25 @@
 # chien-learn
 
-记录我的机器学习学习项目，用代码、简短解释和实验结果展示我的理解。
+记录我的深度学习学习路线，用代码、简短解释和实验结果展示我的理解。
 
-## 项目
+## 学习路线
 
-| 项目 | 内容 | 主要工具 |
-| --- | --- | --- |
-| [Project 3 · NLP 影评情感分类](project3-nlp/) | 微调 DistilBERT，判断 IMDB 英文影评的正负情感 | PyTorch、Hugging Face |
+| Project | 项目 | 核心学习内容 | 状态 |
+| --- | --- | --- | --- |
+| 1 | Image Classifier | CNN、Training Loop、Data Augmentation、Transfer Learning、Fine-tuning | 基本完成 |
+| 2 | Neural Network from Scratch | MLP、Backpropagation、Gradient Descent、Autograd | **下一项目** |
+| 3 | [NLP Transformer Model](project3-nlp/) | Tokenization、Embedding、Transformer、Fine-tuning | 已有初版 |
+| 4 | Recommendation System | Collaborative Filtering、Embeddings | 未开始 |
+| 5 | Mini Deep Learning Framework | Dataset、Optimizer、Training Loop、Callbacks | 未开始 |
+| 6 | CNN / ResNet / U-Net | 深层 CNN、Residual Connections、Image Segmentation | 未开始 |
+| 7 | Mini Diffusion Model | DDPM、Noise Scheduling、Denoising | 未开始 |
+| 8 | Stable Diffusion Project | U-Net、Attention、Latent Diffusion、生成式 AI | 未开始 |
 
-### Project 3：我学到了什么
+## Project 3 · NLP Transformer Model
+
+使用 PyTorch 和 Hugging Face 微调 DistilBERT，判断 IMDB 英文影评的正负情感。
+
+### 我学到了什么
 
 - 如何将文本转换成 token 编号，并用 attention mask 处理补齐位置。
 - 如何使用 Transformer 的上下文表示完成情感分类。
