@@ -1,0 +1,18 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Generated model weights and caches
+*.pth
+*.pt
+*.safetensors
+.cache/
